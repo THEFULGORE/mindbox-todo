@@ -1,0 +1,38 @@
+.todos-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 5rem;
+}
+
+.todos {
+	background-color: #ffffff;
+	width: 35rem;
+	box-shadow: 0px 0px 8px #bfbfbf;
+	position: relative;
+	z-index: 0;
+}
+
+.todos__clear {
+	cursor: pointer;
+	transition: 0.3s;
+}
+.todos__clear:hover {
+	color: #f5222d;
+}
+
+.todos__style1 {
+	background-color: #ffffff;
+	z-index: -1;
+	width: 34.5rem;
+	height: 0.3rem;
+	box-shadow: 0px 0px 8px #bfbfbf;
+}
+
+.todos__style2 {
+	background-color: #ffffff;
+	z-index: -2;
+	width: 34rem;
+	height: 0.3rem;
+	box-shadow: 0px 0px 8px #bfbfbf;
+}
